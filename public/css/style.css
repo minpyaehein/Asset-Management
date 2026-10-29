@@ -134,6 +134,12 @@ button {
     box-shadow: 0 7px 18px #4568f533
 }
 
+.logout-btn{
+    background-color: #211c17;
+    border: none;
+    width: 100%;
+}
+
 .nav-icon {
     width: 22px;
     text-align: center;
@@ -543,12 +549,12 @@ textarea {
 }
 
 .login-card {
-    width: min(420px, 100%);
+    width: min(450px, 100%);
     padding: 34px;
     background: #fff;
     border: 1px solid var(--line);
     border-radius: 20px;
-    box-shadow: 0 25px 65px #1b2b4b12
+    box-shadow: 5px 5px #1b2b4b12
 }
 
 .login-card h2 {
@@ -1092,7 +1098,7 @@ tbody td {
 
 .side-bottom {
     border-top: 1px solid #ffffff17;
-    padding: 15px 10px 0;
+    padding: 15px 0 0;
     color: #b3a48f;
     font-size: 10px;
     line-height: 1.7;

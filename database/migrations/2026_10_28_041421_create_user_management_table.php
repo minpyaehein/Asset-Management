@@ -17,6 +17,7 @@ return new class extends Migration
             $table->string('role');
             $table->string('status');
             $table->string('scope')->nullable();
+            $table->string('password');
             $table->timestamps();
         });
     }
